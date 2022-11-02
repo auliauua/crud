@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<center><img src="http://pascasarjana.untirta.ac.id/wp-content/uploads/2022/05/HEADER-copy.jpg" width="600px"></center>
+
+    <center><h2>PASCASARJANA </h2></center>
+    <h3>Terdiri dari :</h3>
+    {% for jurusan in title %}
+    <li>{{jurusan}}</li>
+    {% endfor %}
+{% endblock %}

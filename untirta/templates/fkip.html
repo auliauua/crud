@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center><img src="http://fkip.untirta.ac.id/wp-content/uploads/2018/02/LOGO-FKIP-BARU.jpg" width="300px"></center>
+
+    <center><h2>FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN</h2></center>
+    <h3>Terdiri dari :</h3>
+
+    {% for jurusan in title %}
+    <li>{{jurusan}}</li>
+    {% endfor %}
+    
+{% endblock %}

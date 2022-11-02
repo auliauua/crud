@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJflsPbWSDU8KwjnuDiP6B6IvNpFjJEtamZA&usqp=CAU" width="300px"></center>
+
+    <center><h2>FAKULTAS KEDOKTERAN </h2></center>
+    <h3>Terdiri dari :</h3>
+    {% for jurusan in title %}
+    <li>{{jurusan}}</li>
+    {% endfor %}
+{% endblock %}

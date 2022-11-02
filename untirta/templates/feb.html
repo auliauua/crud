@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<center><img src="https://pbs.twimg.com/profile_images/603959466904522752/0WMJ5R0E_400x400.jpg" width="300px"></center>
+    <center><h2>FAKULTAS EKONOMI & BISNIS </h2></center>
+    <h3>Terdiri dari :</h3>
+
+    {% for jurusan in title %}
+    <li>{{jurusan}}</li>
+    {% endfor %}
+    
+{% endblock %}

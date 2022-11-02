@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+<center><img src="https://yt3.ggpht.com/ytc/AMLnZu8xN3PfX_tBjBhM5k9Eyey-PLn0M6M0vOOCZp6f=s900-c-k-c0x00ffffff-no-rj" width="300px"></center>
+    <center><h2>FAKULTAS HUKUM </h2></center>
+    <h3>Terdiri dari :</h3>
+    {% for jurusan in title %}
+    <li>{{jurusan}}</li>
+    {% endfor %}
+{% endblock %}
